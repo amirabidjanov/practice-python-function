@@ -1,8 +1,8 @@
-def farenheit(a):
+def farenheit(a: float):
     return a * (9/5) + 32
     
-def celsius(a):
-    return a - 32 + 5 / 9
+def celsius(b: float):
+    return b - 32 + 5 / 9
 
 
 def tekshirish():

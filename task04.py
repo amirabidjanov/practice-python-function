@@ -1,4 +1,4 @@
-def num(num):
+def num(num: int):
     num = int(input('ball kiriting:'))
     
     

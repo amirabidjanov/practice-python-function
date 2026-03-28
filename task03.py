@@ -1,4 +1,4 @@
-def son(a):
+def son(a: int):
     num = a % 2 == 0
     return num
 

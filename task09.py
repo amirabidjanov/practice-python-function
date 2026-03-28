@@ -1,13 +1,13 @@
 balance = 0
 
-def deposite(a):
+def deposite(a:int):
     global balance
     if a > 0:
         balance += a
     else:
         print("manfiy son kiritmang!")
 
-def withdraw(a):
+def withdraw(a:int):
     global balance
     if a <= balance:
         balance -= a

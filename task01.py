@@ -1,16 +1,16 @@
-def qoshish(a,b):
+def qoshish(a: float,b: float):
     return a + b
 
 
-def ayiruv(a,b):
+def ayiruv(a: float,b: float):
     return a - b
 
 
-def kopaytiruv(a,b):
+def kopaytiruv(a: float,b: float):
     return a * b
 
 
-def boluv(a,b):
+def boluv(a: float,b: float):
     if b != 0:
         return a/b 
     else:

@@ -1,4 +1,4 @@
-def yosh(a,b):
+def yosh(a: int,b: int):
     age = b - a
     return age
 
