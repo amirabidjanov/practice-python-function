@@ -1,39 +1,37 @@
-def add(a, b):
+def qoshish(a,b):
     return a + b
 
 
-def subtract(a, b):
+def ayiruv(a,b):
     return a - b
 
 
-def multiply(a, b):
+def kopaytiruv(a,b):
     return a * b
 
 
-def divide(a, b):
+def boluv(a,b):
     if b != 0:
-        return a / b
+        return a/b 
     else:
-        return None
-
+        None
 def main():
-    a = float(input('a: '))
-    b = float(input('b: '))
-    op = input('amal: ')
+    a = float(input('son kiriting:'))
+    b = float(input('son kiriting:'))
+    op = input('amal:')
 
-    if op == '+':
-        print(add(a, b))
-    elif op == '-':
-        print(subtract(a, b))
-    elif op == '*':
-        print(multiply(a, b))
-    elif op == '/':
-        result = divide(a, b)
+    if op == "+":
+        print(qoshish(a,b))
+    elif op == "-":
+        print(ayiruv(a,b))
+    elif op == "*":
+        print(kopaytiruv(a,b))
+    elif op == "/":
+        result = boluv(a,b)
         if result == None:
-            print('0 ga bo\'lish mumkin emas.')
+            print('0ga bo\'lish mumkin emas.')
         else:
             print(result)
     else:
-        print('bunday amal mavjud emas.')
-
+        print('bunday amal yo\'q')
 main()
